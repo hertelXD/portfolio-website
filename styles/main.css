@@ -18,14 +18,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 15px 40px; /* Mehr Abstand zum Rand */
     background: white;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 1000; /* Sicherstellen, dass die Navigation oben bleibt */
+    z-index: 1000;
 }
 
 nav .logo {
@@ -37,7 +37,7 @@ nav .logo {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px; /* Größerer Abstand zwischen Links */
     margin: 0;
     padding: 0;
 }
@@ -133,8 +133,8 @@ footer {
     /* 🔹 Navigation */
     nav {
         flex-direction: column;
-        text-align: center;
-        padding: 10px;
+        align-items: center;
+        padding: 10px 20px;
     }
 
     nav .logo {
