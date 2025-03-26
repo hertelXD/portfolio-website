@@ -1,174 +1,186 @@
-/* 🌎 Allgemeine Stile */
-body {
-    font-family: 'Inter', sans-serif;
+/* ===== ALLGEMEINE STILE ===== */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    background: #f9f9f9;
     color: #333;
-    text-align: center;
-    overflow-x: hidden; /* Verhindert horizontales Scrollen */
-}
-
-h1, h2, h3 {
-    margin: 0 0 15px;
-}
-
-/* 📌 Navigation */
-nav {
+    line-height: 1.6;
+    padding-top: 80px; /* Verhindert Überlappung mit der fixen Navigation */
+  }
+  
+  /* ===== NAVIGATION ===== */
+  nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 40px; /* Mehr Abstand zum Rand */
-    background: white;
+    justify-content: center; /* Zentriert die Kinder horizontal */
+    align-items: center; /* Zentriert vertikal */
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.95); /* Leicht transparent für bessere Sichtbarkeit */
+    backdrop-filter: blur(8px);
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-}
-
-nav .logo {
-    font-size: 20px;
-    font-weight: 700;
-    color: #333;
-}
-
-nav ul {
-    list-style: none;
+  }
+  
+  /* Container für Logo + Links */
+  .nav-container {
     display: flex;
-    gap: 30px; /* Größerer Abstand zwischen Links */
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 10px;
-    transition: color 0.3s ease-in-out;
-}
-
-nav ul li a:hover {
-    color: #007bff;
-}
-
-/* 🔍 Besondere Anpassung für "Kontakt" */
-nav ul li a[href="#contact"] {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+  }
+  
+  /* Logo */
+  .logo {
     font-weight: 700;
+    font-size: 1.5rem;
     color: #222;
-}
-
-/* 🎯 Hero-Section */
-.hero {
-    padding: 150px 20px;
-    background: white;
-}
-
-.hero h1 {
+    margin-right: auto;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin-left: auto;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-links a:hover {
+    color: #0077ff;
+  }
+  
+  /* 🔹 Mobile Anpassungen */
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .logo, .nav-links {
+      margin: 0; /* Reset für Mobile */
+    }
+  
+    nav {
+      padding: 15px;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 10px;
+    }
+  
+    .nav-links a {
+      font-size: 18px;
+      padding: 12px;
+    }
+  }
+  
+  /* ===== HEADER ===== */
+  header {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #0077ff, #00aaff);
+    color: white;
+  }
+  
+  header h1 {
     font-size: 3rem;
     margin-bottom: 10px;
-}
-
-.hero p {
+  }
+  
+  header p {
     font-size: 1.2rem;
-    color: #666;
-}
-
-/* 🎨 Projekte */
-.projects {
-    padding: 50px 20px;
-    background: #fff;
-}
-
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding-top: 20px;
-}
-
-.project-item {
+    opacity: 0.9;
+  }
+  
+  /* ===== PROJEKTE ===== */
+  .projects {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .project-card {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
-
-.project-item:hover {
-    transform: translateY(-5px);
-}
-
-.project-item img {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-/* 📩 Kontaktformular */
-.contact-form {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .project-card img {
     width: 100%;
-    max-width: 500px;
-    margin: 20px auto;
+    border-radius: 10px;
+  }
+  
+  /* ===== ÜBER MICH ===== */
+  .about {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    opacity: 0.8;
+  }
+  
+  /* ===== KONTAKT ===== */
+  .contact {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .contact a {
+    text-decoration: none;
+    color: #0077ff;
+    font-size: 1.2rem;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ===== FOOTER ===== */
+  footer {
+    text-align: center;
     padding: 20px;
-    background: #f9f9f9;
-    border-radius: 8px;
-}
-
-/* 🦶 Footer */
-footer {
-    padding: 20px;
-    background: white;
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* 🛠️ Responsive Anpassungen */
-@media (max-width: 768px) {
-    /* 🔹 Navigation */
-    nav {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 20px;
-    }
-
-    nav .logo {
-        margin-bottom: 10px;
-    }
-
-    nav ul {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    nav ul li a {
-        font-size: 18px;
-        padding: 12px;
-    }
-
-    /* 🔹 Schriftgrößen für kleine Displays */
-    h1 {
-        font-size: 24px !important;
-    }
-
-    .hero {
-        padding: 100px 20px;
-    }
-
-    /* 🔹 Kontaktformular */
-    .contact-form {
-        padding: 15px;
-        margin: 10px;
-    }
-
-    /* 🔹 Input-Felder */
-    input, textarea {
-        width: 100%;
-        box-sizing: border-box;
-    }
-}
+    background: #222;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+  
