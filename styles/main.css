@@ -112,7 +112,7 @@ nav {
 
 /* ===== HERO ===== */
 .hero {
-    background: url('assets/ah-sakurashero.png') center/cover no-repeat;
+    background: url('/portfolio-website/assets/ah-sakurashero.png') center/cover no-repeat;
     height: 80vh;
     display: flex;
     align-items: center;
