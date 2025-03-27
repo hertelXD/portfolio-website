@@ -6,6 +6,7 @@
     --text-light: #718096;
     --white: #ffffff;
     --bg: #fdf6f8;
+    --footer-bg: #1a1a1a;
     --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
     --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
     --transition: all 0.3s ease;
@@ -238,7 +239,7 @@ nav {
 
 /* ===== FOOTER ===== */
 footer {
-    background-color: var(--primary);
+    background-color: var(--footer-bg); 
     color: var(--white);
     padding: 2rem 0;
     text-align: center;
