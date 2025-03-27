@@ -229,6 +229,8 @@ nav {
     border-radius: 10px;
 }
 
+/* ===== ELEMENTOR SPECIFICS ===== */
+
 .elementor-1894 .elementor-element.elementor-element-772f203 .elementor-repeater-item-0aac0be {
     grid-column: span min(1, var(--grid-columns));
 }
