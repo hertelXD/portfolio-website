@@ -394,6 +394,30 @@ nav {
     --swiper-pagination-bullet-horizontal-gap: 6px;
 }
 
+.elementor-widget-wrap>.elementor-element {
+    width: 100%;
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1140px;
+}
+
+.elementor-section .elementor-container {
+    display: flex
+;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .elementor-column.elementor-col-100, .elementor-column[data-col="100"] {
+        width: 100%;
+    }
+}
+
+
+
 /* ===== KONTAKT ===== */
 .contact {
     padding: 4rem 0;
