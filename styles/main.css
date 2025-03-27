@@ -179,7 +179,7 @@ nav {
     justify-content: center;
     text-align: center;
     color: var(--white);
-    background: url('.../assets/ah-sakurashero.png') center/cover no-repeat;
+    background: url('../assets/ah-sakurashero.png') center/cover no-repeat;
 }
 
 .hero::before {
