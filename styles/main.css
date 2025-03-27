@@ -332,6 +332,68 @@ nav {
     --grid-row-gap: 0px;
 }
 
+@media (min-width: 768px) {
+    .elementor-column.elementor-col-50, .elementor-column[data-col="50"] {
+        width: 50%;
+    }
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+.elementor-element, .elementor-lightbox {
+    --swiper-theme-color: #000;
+    --swiper-navigation-size: 44px;
+    --swiper-pagination-bullet-size: 6px;
+    --swiper-pagination-bullet-horizontal-gap: 6px;
+}
+
+.elementor-column {
+    position: relative;
+    min-height: 1px;
+    display: flex
+;
+}
+
+.elementor-12406 .elementor-element.elementor-element-00e803e > .elementor-container > .elementor-column > .elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-12406 .elementor-element.elementor-element-722074a > .elementor-element-populated {
+    margin: 0px 120px 0px 20px;
+    --e-column-margin-right: 120px;
+    --e-column-margin-left: 20px;
+}
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 10px;
+}
+
+.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap {
+    display: flex
+;
+}
+
+.elementor-widget-wrap {
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+.elementor-element, .elementor-lightbox {
+    --swiper-theme-color: #000;
+    --swiper-navigation-size: 44px;
+    --swiper-pagination-bullet-size: 6px;
+    --swiper-pagination-bullet-horizontal-gap: 6px;
+}
+
 /* ===== KONTAKT ===== */
 .contact {
     padding: 4rem 0;
