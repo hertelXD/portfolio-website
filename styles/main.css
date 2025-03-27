@@ -242,7 +242,7 @@ nav {
 footer {
     background-color: var(--footer-bg); 
     color: var(--white);
-    padding: 2rem 0;
+    padding: 1rem 0;
     text-align: center;
 }
 
@@ -250,14 +250,22 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-content p {
+    margin: 0;
 }
 
 .social-links {
     display: flex;
-    justify-content: center;
-    gap: 1.5rem;
+    gap: 1rem;
     list-style: none;
-    margin-top: 1rem;
+    margin: 0;
+    padding: 0;
 }
 
 .social-links a {
@@ -288,5 +296,11 @@ footer {
 
     .project-grid {
         grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
     }
 }
