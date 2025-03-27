@@ -3,135 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio von Aileen Hertel, UI/UX Designerin. Spezialisiert auf intuitive digitale Erlebnisse mit Fokus auf Nutzerfreundlichkeit.">
     <title>Aileen Hertel – UI/UX Designerin</title>
+    
+    <!-- Preload wichtige Ressourcen -->
+    <link rel="preload" href="styles/main.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" as="style">
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="styles/main.css">
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
     <link rel="icon" href="assets/fav-ah-logo.png" type="image/png">
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav aria-label="Hauptnavigation">
             <div class="nav-container">
-                <div class="logo"><img src="assets/ah-logo.png" alt="Aileen Hertel Logo"></div>
+                <a href="/" class="logo">
+                    <img src="assets/ah-logo.png" alt="Aileen Hertel Logo - Zur Startseite" width="100" height="40">
+                </a>
+                <button class="mobile-menu-toggle" aria-expanded="false" aria-label="Menü öffnen/schließen">
+                    <span class="toggle-line"></span>
+                    <span class="toggle-line"></span>
+                    <span class="toggle-line"></span>
+                </button>
                 <ul class="nav-links">
-                    <li><a href="index.html#projects">Projekte</a></li>
-                    <li><a href="about.html">Über mich</a></li>
-                    <li><a href="index.html#contact">Kontakt</a></li>
+                    <li><a href="index.html#projects" class="nav-link">Projekte</a></li>
+                    <li><a href="about.html" class="nav-link">Über mich</a></li>
+                    <li><a href="index.html#contact" class="nav-link">Kontakt</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     
     <main>
-        <section class="hero">
-            <div class="hero-overlay"></div>
+        <section class="hero" aria-labelledby="main-heading">
+            <div class="hero-overlay" aria-hidden="true"></div>
             <div class="hero-content">
-                <h1>UI/UX Design mit Klarheit & Ästhetik</h1>
+                <h1 id="main-heading">UI/UX Design mit Klarheit & Ästhetik</h1>
                 <p class="subtitle">Ich gestalte intuitive digitale Erlebnisse mit Fokus auf Nutzerfreundlichkeit</p>
+                <a href="#projects" class="cta-button">Meine Projekte entdecken</a>
             </div>
         </section>
         
-        <section id="projects" class="projects">
+        <section id="projects" class="projects" aria-labelledby="projects-heading">
             <div class="section-container">
-                <h2>Ausgewählte Projekte</h2>
+                <h2 id="projects-heading">Ausgewählte Projekte</h2>
+                
                 <div class="project-gallery">
-                    <div data-elementor-type="loop-item" data-elementor-id="12406" class="elementor elementor-12406 elementor-repeater-item-0aac0be e-loop-item e-loop-item-12402 post-12402 post type-post status-publish format-standard has-post-thumbnail hentry category-adding-a-feature-to-an-application" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
-                        <section class="elementor-section elementor-top-section elementor-element elementor-element-00e803e elementor-section-content-middle elementor-section-height-min-height elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="00e803e" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-722074a" data-id="722074a" data-element_type="column">
-                <div class="elementor-widget-wrap elementor-element-populated">
-                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-fa00ea8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fa00ea8" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-a011d2a" data-id="a011d2a" data-element_type="column">
-                <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-577a2ae elementor-widget__width-auto animated-slow elementor-widget elementor-widget-post-info animated fadeIn" data-id="577a2ae" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="post-info.default">
-                    <div class="elementor-widget-container">
-                        <ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
-                                    <li class="elementor-icon-list-item elementor-repeater-item-b151a5c elementor-inline-item" itemprop="about">
-                                                        <span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-terms">
-                                            <span class="elementor-post-info__terms-list">
-                    <span class="elementor-post-info__terms-list-item">ADDING A FEATURE TO AN APPLICATION</span>				</span>
-                        </span>
-                                    </li>
-                    </ul>
-                    </div>
-                    </div>
-                    <div class="elementor-element elementor-element-491fc81 project-heading animated-slow elementor-widget elementor-widget-heading animated fadeIn" data-id="491fc81" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:200}" data-widget_type="heading.default">
-                    <div class="elementor-widget-container">
-                <h2 class="elementor-heading-title elementor-size-default"><a href="https://naomicreates.co.za/adding-a-message-scheduling-feature-to-whatsapp-messenger/">Adding a Message Scheduling Feature to WhatsApp Messenger</a></h2>		</div>
-                    </div>
-                    <div class="elementor-element elementor-element-f66e993 animated-slow elementor-widget elementor-widget-theme-post-excerpt animated fadeIn" data-id="f66e993" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:400}" data-widget_type="theme-post-excerpt.default">
-                    <div class="elementor-widget-container">
-                This feature will enable users to schedule messages to be sent at a later time or date, providing more flexibility and convenience in communication.		</div>
-                    </div>
-                    <div class="elementor-element elementor-element-f436230 elementor-mobile-align-center textbtn elementor-widget__width-auto elementor-widget elementor-widget-button animated zoomIn" data-id="f436230" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;,&quot;_animation_delay&quot;:500}" data-widget_type="button.default">
-                    <div class="elementor-widget-container">
-                        <div class="elementor-button-wrapper">
-                <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="https://naomicreates.co.za/adding-a-message-scheduling-feature-to-whatsapp-messenger/">
-                            <span class="elementor-button-content-wrapper">
-                            <span class="elementor-button-icon">
-                    <i aria-hidden="true" class="fas fa-arrow-right"></i>			</span>
-                                        <span class="elementor-button-text">View Case Study</span>
-                        </span>
-                        </a>
-            </div>
-                    </div>
-                    </div>
-                        </div>
-            </div>
-                        </div>
-            </section>
-                        </div>
-            </div>
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-dfefdda" data-id="dfefdda" data-element_type="column">
-                <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-b3f1fdf elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image animated zoomIn" data-id="b3f1fdf" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="theme-post-featured-image.default">
-                    <div class="elementor-widget-container">
-                                                            <a href="">
-                                <img decoding="async" width="2000" height="1327" src="" sizes="(max-width: 2000px) 100vw, 2000px">								</a>
-                                                        </div>
-                    </div>
-                        </div>
-            </div>
-                        </div>
-            </section>
-                    </div>
+                    <!-- Projekt 1 - WhatsApp Feature -->
                     <article class="project-card">
                         <div class="project-content">
                             <div class="project-text">
-                                <h3>Fitness App</h3>
-                                <p>Personalisierte Workout-Erfahrung mit Gamification</p>
+                                <span class="project-category">Feature-Erweiterung</span>
+                                <h3>Message Scheduling für WhatsApp</h3>
+                                <p>Konzept für eine Nachrichtenplanungs-Funktion in WhatsApp Messenger</p>
+                                <a href="https://naomicreates.co.za/adding-a-message-scheduling-feature-to-whatsapp-messenger/" class="project-link" aria-label="Mehr über WhatsApp Feature Projekt erfahren">
+                                    Zum Case Study
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </a>
                             </div>
-                            <div class="project-image" style="background-image: url('assets/project2.jpg');"></div>
+                            <div class="project-image">
+                                <img src="assets/whatsapp-feature.jpg" alt="Screenshot der WhatsApp Message Scheduling Funktion" loading="lazy" width="800" height="600">
+                            </div>
                         </div>
                     </article>
-                    <!-- Weitere Projekte hinzufügen -->
+                    
+                    <!-- Projekt 2 - Fitness App -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-text">
+                                <span class="project-category">Mobile App Design</span>
+                                <h3>Fitness App</h3>
+                                <p>Personalisierte Workout-Erfahrung mit Gamification-Elementen</p>
+                                <a href="#" class="project-link" aria-label="Mehr über Fitness App Projekt erfahren">
+                                    Zum Case Study
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="project-image">
+                                <img src="assets/project2.jpg" alt="Screenshot der Fitness App" loading="lazy" width="800" height="600">
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Weitere Projekte können hier hinzugefügt werden -->
                 </div>
             </div>
         </section>
         
-        <section id="contact" class="contact">
+        <section id="contact" class="contact" aria-labelledby="contact-heading">
             <div class="section-container">
-                <h2>Kontakt</h2>
+                <h2 id="contact-heading">Kontakt</h2>
                 <p>Interesse an einer Zusammenarbeit?</p>
-                <a href="mailto:kontakt@beispiel.de" class="cta-button">E-Mail senden</a>
+                <div class="contact-options">
+                    <a href="mailto:kontakt@aileenhertel.de" class="cta-button">E-Mail senden</a>
+                    <address>
+                        <a href="tel:+49123456789" class="contact-link">+49 123 456789</a>
+                    </address>
+                </div>
             </div>
         </section>
     </main>
     
-    <footer>
+    <footer class="main-footer">
         <div class="footer-content">
-            <p>&copy; 2024 Aileen Hertel | Get In Touch blaemailadresse</p>
-            <ul class="social-links">
-                <li><a href="https://www.linkedin.com/in/deinprofil" aria-label="LinkedIn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="29" height="28" viewBox="0 0 29 28" fill="none">
-                        <path d="M6.08605 3.11249C6.08564 3.93757 5.76465 4.72868 5.19369 5.3118C4.62273 5.89493 3.84856 6.22229 3.0415 6.22188C2.23444 6.22146 1.4606 5.89331 0.890205 5.3096C0.319813 4.7259 -0.000403149 3.93446 3.80928e-07 3.10938C0.000403911 2.28431 0.321394 1.4932 0.892357 0.910073C1.46332 0.326951 2.23748 -0.000412147 3.04454 3.8943e-07C3.8516 0.000412925 4.62545 0.328567 5.19584 0.912273C5.76623 1.49598 6.08645 2.28742 6.08605 3.11249ZM6.17734 8.52553H0.091291V28H6.17734V8.52553ZM15.7933 8.52553H9.73767V28H15.7324V17.7806C15.7324 12.0876 22.99 11.5587 22.99 17.7806V28H29V15.6651C29 6.06789 18.2581 6.42564 15.7324 11.1387L15.7933 8.52553Z" fill="white"></path>
-                    </svg>
-                </a></li>
+            <p>&copy; <span id="current-year">2024</span> Aileen Hertel | UI/UX Designerin</p>
+            <ul class="social-links" aria-label="Soziale Medien">
+                <li>
+                    <a href="https://www.linkedin.com/in/aileenhertel" aria-label="LinkedIn Profil" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="29" height="28" viewBox="0 0 29 28" fill="currentColor" aria-hidden="true">
+                            <path d="M6.08605 3.11249C6.08564 3.93757 5.76465 4.72868 5.19369 5.3118C4.62273 5.89493 3.84856 6.22229 3.0415 6.22188C2.23444 6.22146 1.4606 5.89331 0.890205 5.3096C0.319813 4.7259 -0.000403149 3.93446 3.80928e-07 3.10938C0.000403911 2.28431 0.321394 1.4932 0.892357 0.910073C1.46332 0.326951 2.23748 -0.000412147 3.04454 3.8943e-07C3.8516 0.000412925 4.62545 0.328567 5.19584 0.912273C5.76623 1.49598 6.08645 2.28742 6.08605 3.11249ZM6.17734 8.52553H0.091291V28H6.17734V8.52553ZM15.7933 8.52553H9.73767V28H15.7324V17.7806C15.7324 12.0876 22.99 11.5587 22.99 17.7806V28H29V15.6651C29 6.06789 18.2581 6.42564 15.7324 11.1387L15.7933 8.52553Z"></path>
+                        </svg>
+                    </a>
+                </li>
+                <!-- Weitere Social Media Links können hier hinzugefügt werden -->
             </ul>
         </div>
     </footer>
+
+    <script>
+        // Aktuelles Jahr für das Copyright
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        
+        // Mobile Navigation Toggle
+        const menuToggle = document.querySelector('.mobile-menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        
+        menuToggle.addEventListener('click', () => {
+            const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+            menuToggle.setAttribute('aria-expanded', !isExpanded);
+            navLinks.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
