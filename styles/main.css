@@ -269,6 +269,69 @@ nav {
     align-self: var(--align-self);
 }
 
+.elementor-12406 .elementor-element.elementor-element-00e803e {
+    overflow: hidden;
+}
+
+.e-loop-item * {
+    word-break: break-word;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+.elementor-element, .elementor-lightbox {
+    --swiper-theme-color: #000;
+    --swiper-navigation-size: 44px;
+    --swiper-pagination-bullet-size: 6px;
+    --swiper-pagination-bullet-horizontal-gap: 6px;
+}
+
+.elementor-section {
+    position: relative;
+}
+
+.elementor-12406 .elementor-element.elementor-element-00e803e > .elementor-container {
+    min-height: 450px;
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1140px;
+}
+
+.elementor-section.elementor-section-items-middle>.elementor-container {
+    align-items: center;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+.elementor-section .elementor-container {
+    display: flex
+;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+.elementor-element, .elementor-lightbox {
+    --swiper-theme-color: #000;
+    --swiper-navigation-size: 44px;
+    --swiper-pagination-bullet-size: 6px;
+    --swiper-pagination-bullet-horizontal-gap: 6px;
+}
+
+.elementor-1894 .elementor-element.elementor-element-772f203 {
+    --grid-columns: 1;
+    --grid-row-gap: 0px;
+}
+
 /* ===== KONTAKT ===== */
 .contact {
     padding: 4rem 0;
