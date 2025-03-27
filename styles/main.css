@@ -227,6 +227,48 @@ nav {
     border-radius: 10px;
 }
 
+.elementor-1894 .elementor-element.elementor-element-772f203 .elementor-repeater-item-0aac0be {
+    grid-column: span min(1, var(--grid-columns));
+}
+.elementor *, .elementor :after, .elementor :before {
+    box-sizing: border-box;
+}
+
+.elementor-1894 .elementor-element.elementor-element-772f203 {
+    --grid-columns: 1;
+    --grid-row-gap: 0px;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+.elementor-element, .elementor-lightbox {
+    --swiper-theme-color: #000;
+    --swiper-navigation-size: 44px;
+    --swiper-pagination-bullet-size: 6px;
+    --swiper-pagination-bullet-horizontal-gap: 6px;
+}
+
+.elementor-element {
+    --flex-direction: initial;
+    --flex-wrap: initial;
+    --justify-content: initial;
+    --align-items: initial;
+    --align-content: initial;
+    --gap: initial;
+    --flex-basis: initial;
+    --flex-grow: initial;
+    --flex-shrink: initial;
+    --order: initial;
+    --align-self: initial;
+    flex-basis: var(--flex-basis);
+    flex-grow: var(--flex-grow);
+    flex-shrink: var(--flex-shrink);
+    order: var(--order);
+    align-self: var(--align-self);
+}
+
 /* ===== KONTAKT ===== */
 .contact {
     padding: 4rem 0;
