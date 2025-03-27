@@ -366,7 +366,7 @@ nav {
 .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: self-end;
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 0 1.5rem;
@@ -453,7 +453,7 @@ nav {
     .project-gallery {
         grid-template-columns: 1fr;
     }
-    
+
     .footer-content {
         flex-direction: column;
         gap: 1rem;
