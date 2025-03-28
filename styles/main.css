@@ -262,11 +262,6 @@ nav {
     transition: var(--transition);
 }
 
-.project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-lg);
-}
-
 .project-content {
     display: flex;
     flex-direction: row;
@@ -309,11 +304,17 @@ nav {
     gap: 0.5rem;
     font-weight: 500;
     color: var(--primary);
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .project-link svg {
     transition: var(--transition);
 }
+
+.project-link:hover {
+    color: var(--primary-hover);
+    transform: translateX(4px);
+  }
 
 .project-link:hover svg {
     transform: translateX(3px);
@@ -323,7 +324,15 @@ nav {
     flex: 1;
     height: 500px;
     order: 2;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.project-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  }
 
 .project-image img {
     width: 100%;
