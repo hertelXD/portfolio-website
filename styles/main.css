@@ -240,8 +240,8 @@ nav {
 }
 
 .project-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
     margin-top: 3rem;
 }
@@ -252,6 +252,7 @@ nav {
     overflow: hidden;
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
+    margin-bottom: 2rem;
 }
 
 .project-card:hover {
@@ -451,6 +452,22 @@ nav {
     
     .project-gallery {
         grid-template-columns: 1fr;
+    }
+
+    .project-content {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .project-text {
+        flex: 1;
+        padding: 2rem;
+    }
+
+    .project-image {
+        flex: 1;
+        height: auto;
+        min-height: 300px;
     }
 
     .footer-content {
