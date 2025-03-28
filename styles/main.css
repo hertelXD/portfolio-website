@@ -242,7 +242,7 @@ nav {
 .project-gallery {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
     margin-top: 3rem;
 }
 
@@ -252,7 +252,6 @@ nav {
     overflow: hidden;
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
-    margin-bottom: 2rem;
 }
 
 .project-card:hover {
@@ -262,13 +261,14 @@ nav {
 
 .project-content {
     display: flex;
-    flex-direction: column;
-    height: 100%;
+    flex-direction: row;
+    align-items: center;
 }
 
 .project-text {
-    padding: 1.5rem;
     flex: 1;
+    padding: 2rem;
+    order: 1;
 }
 
 .project-category {
@@ -311,8 +311,9 @@ nav {
 }
 
 .project-image {
-    height: 200px;
-    overflow: hidden;
+    flex: 1;
+    height: 300px;
+    order: 2;
 }
 
 .project-image img {
@@ -455,19 +456,18 @@ nav {
     }
 
     .project-content {
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
     }
 
     .project-text {
-        flex: 1;
-        padding: 2rem;
+        order: 2;
+        padding: 1.5rem;
     }
 
     .project-image {
-        flex: 1;
-        height: auto;
-        min-height: 300px;
+        order: 1;
+        height: 200px;
+        width: 100%;
     }
 
     .footer-content {
