@@ -255,11 +255,7 @@ nav {
 }
 
 .project-card {
-    background: var(--white);
-    border-radius: var(--border-radius);
     overflow: hidden;
-    box-shadow: var(--shadow-sm);
-    transition: var(--transition);
 }
 
 .project-content {
