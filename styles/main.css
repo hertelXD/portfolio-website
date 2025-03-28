@@ -246,6 +246,10 @@ nav {
     margin-top: 3rem;
 }
 
+.project-gallery article:nth-child(2) .project-content {
+    flex-direction: row-reverse; /* Kehrt die Reihenfolge um */
+}
+
 .project-card {
     background: var(--white);
     border-radius: var(--border-radius);
@@ -453,6 +457,10 @@ nav {
     
     .project-gallery {
         grid-template-columns: 1fr;
+    }
+
+    .project-gallery article .project-content {
+        flex-direction: column;
     }
 
     .project-content {
