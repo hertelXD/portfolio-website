@@ -247,7 +247,11 @@ nav {
 }
 
 .project-gallery article:nth-child(2) .project-content {
-    flex-direction: row-reverse; /* Kehrt die Reihenfolge um */
+    flex-direction: row-reverse; 
+}
+
+.project-gallery article:nth-child(4) .project-content {
+    flex-direction: row-reverse;
 }
 
 .project-card {
