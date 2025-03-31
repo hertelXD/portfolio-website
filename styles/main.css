@@ -341,6 +341,99 @@ nav {
     transform: scale(1.05);
 }
 
+/* Project Header Section */
+.project-header-section {
+    width: 100%;
+    padding: 40px 0;
+    margin: 0 auto;
+  }
+  
+  .project-header-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .project-header-side-column {
+    flex: 1;
+  }
+  
+  .project-header-main-column {
+    flex: 8;
+    padding: 0 20px;
+  }
+  
+  /* Project Tag Styles */
+  .project-tag-wrapper {
+    margin-bottom: 15px;
+  }
+  
+  .project-tag-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .project-tag-item {
+    margin-right: 10px;
+  }
+  
+  .project-tag-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Project Title Styles */
+  .project-title-wrapper {
+    margin-bottom: 30px;
+  }
+  
+  .project-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Animation Classes */
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  .animated-slow {
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  @keyframes zoomIn {
+    from { 
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+    50% { opacity: 1; }
+  }
+  
+  .zoomIn {
+    animation-name: zoomIn;
+  }
+
 /* ===== KONTAKT ===== */
 .contact {
     padding: 5rem 0;
