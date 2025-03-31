@@ -365,7 +365,7 @@ nav {
     padding: 0 20px;
   }
 
-  /* Project Intro Section - Harmonisiert mit Ihrem Stil */
+  /* Project Intro Section */
 .project-intro {
     padding: 180px 0 80px;
     position: relative;
@@ -408,6 +408,14 @@ nav {
     margin: 0 auto;
     max-width: 900px;
   }
+
+  .projekt-bild {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+}
   
   /* Responsive Anpassungen */
   @media (max-width: 768px) {
