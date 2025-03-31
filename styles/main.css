@@ -441,6 +441,71 @@ nav {
     color: #555;
 }
 
+.project-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #f5f5f7; /* Leicht grauer Hintergrund */
+    border-radius: 10px;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Subtiler Schatten */
+}
+
+.detail-item {
+    flex: 1;
+    min-width: 200px;
+}
+
+.detail-item h3 {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.detail-item p, .detail-item ul {
+    font-size: 1rem;
+    color: #222;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.tools-used {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tools-used li {
+    background: #e9e9ef;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-details {
+        flex-direction: column;
+        gap: 1.8rem;
+    }
+    
+    .detail-item {
+        min-width: 100%;
+    }
+    
+    .tools-used li {
+        padding: 0.25rem 0.6rem;
+    }
+}
+
 @media (max-width: 768px) {
     .overview-container {
         grid-template-columns: 1fr;
