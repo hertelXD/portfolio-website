@@ -416,6 +416,36 @@ nav {
     margin: 20px auto;
     border-radius: 8px;
 }
+
+.project-overview {
+    padding: 4rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.overview-container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 2rem;
+}
+
+.overview-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    align-self: start;
+}
+
+.overview-content {
+    line-height: 1.6;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .overview-container {
+        grid-template-columns: 1fr;
+    }
+}
   
   /* Responsive Anpassungen */
   @media (max-width: 768px) {
