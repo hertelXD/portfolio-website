@@ -379,12 +379,7 @@ nav {
   }
   
   .project-meta {
-    display: inline-block;
     font-size: 14px;
-    font-weight: 600;
-    color: var(--clr-text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 2px;
     margin-bottom: 25px;
     position: relative;
     padding-bottom: 8px;
