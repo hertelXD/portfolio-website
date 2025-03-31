@@ -239,35 +239,6 @@ nav {
     padding: 5rem 0;
 }
 
-.project-header {
-    padding: 80px 20px;
-    background-color: #f9f9f9;
-    text-align: center;
-}
-
-.project-info {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.project-meta {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 10px;
-    display: flex;
-    justify-content: center;
-}
-
-.project-meta li {
-    font-size: 14px;
-}
-
-.project-title {
-    font-size: 32px;
-    font-weight: 700;
-    color: #333;
-}
-
 .project-gallery {
     display: flex;
     flex-direction: column;
