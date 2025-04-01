@@ -178,23 +178,20 @@ nav {
 }
 
 /* Buttons */
-.btn {
+.cta-button {
     display: inline-block;
+    background-color: var(--white);
+    color: var(--primary);
     padding: 0.75rem 2rem;
     border-radius: 50px;
     font-weight: 500;
     transition: var(--transition);
-    text-align: center;
-}
-
-.btn-primary {
-    background-color: var(--white);
-    color: var(--primary);
     border: 2px solid transparent;
     box-shadow: var(--shadow-sm);
+    margin: 1rem 0;
 }
 
-.btn-primary:hover {
+.cta-button:hover {
     background-color: transparent;
     color: var(--white);
     border-color: var(--white);
