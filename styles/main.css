@@ -300,6 +300,18 @@ nav {
     transition: var(--transition);
 }
 
+.project-link:hover {
+    transform: translateX(4px);
+}
+
+.project-image {
+    flex: 1;
+    height: 500px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 .project-gallery article:nth-child(2) .project-content {
     flex-direction: row-reverse; 
 }
@@ -312,22 +324,8 @@ nav {
     transition: var(--transition);
 }
 
-.project-link:hover {
-    color: var(--primary-hover);
-    transform: translateX(4px);
-  }
-
 .project-link:hover svg {
     transform: translateX(3px);
-}
-
-.project-image {
-    flex: 1;
-    height: 500px;
-    order: 2;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-image:hover {
