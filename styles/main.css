@@ -437,6 +437,7 @@ nav {
     background-color: var(--primary);
     color: var(--white);
     text-align: center;
+    padding: 5rem 0;
 }
 
 .contact h2 {
