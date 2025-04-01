@@ -429,16 +429,6 @@ nav {
     margin-top: 2rem;
 }
 
-.contact-link {
-    color: var(--white);
-    font-weight: 500;
-    transition: var(--transition);
-}
-
-.contact-link:hover {
-    opacity: 0.8;
-}
-
 .project-gallery article:nth-child(2) .project-content {
     flex-direction: row-reverse; 
 }
