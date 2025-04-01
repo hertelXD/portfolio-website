@@ -537,7 +537,7 @@ nav {
     }
     
     .project-content {
-        flex-direction: column;
+        flex-direction: column !important;
     }
     
     .project-image {
