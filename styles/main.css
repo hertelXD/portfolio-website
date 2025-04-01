@@ -263,6 +263,17 @@ nav {
     margin-top: 3rem;
 }
 
+.project-gallery article {
+    margin-bottom: 4rem;
+  }
+
+.project-gallery article:nth-child(odd) .project-content {
+    flex-direction: row;
+  }
+  .project-gallery article:nth-child(even) .project-content {
+    flex-direction: row-reverse;
+}
+
 .project-card {
     overflow: hidden;
     margin-bottom: 3rem;
@@ -271,6 +282,7 @@ nav {
 .project-content {
     display: flex;
     align-items: center;
+    gap: 2rem;
 }
 
 .project-text {
