@@ -354,10 +354,26 @@ nav {
     padding: 40px 0;
 }
 
+.project-header-container {
+    padding: 2rem 0;
+  }
+
+.project-header-section,
+.project-intro,
+.project-overview {
+  max-width: min(1200px, 90%);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 .project-intro {
     padding: 180px 0 80px;
     text-align: center;
 }
+
+.project-intro .container {
+    padding: 2rem 0;
+  }
 
 .project-meta {
     font-size: 0.875rem;
@@ -402,6 +418,14 @@ nav {
     gap: 1.5rem;
     box-shadow: var(--shadow-sm);
 }
+
+.projekt-bild {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+  }
 
 .detail-item {
     flex: 1;
