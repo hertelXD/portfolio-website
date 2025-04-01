@@ -329,6 +329,11 @@ nav {
 }
 
 /* Projekt-Detailseiten */
+.project-intro {
+    padding: 180px 0 80px;
+    position: relative;
+  }
+
 .project-gallery article:nth-child(2) .project-content {
     flex-direction: row-reverse; 
 }
@@ -360,12 +365,6 @@ nav {
   .project-header-main-column {
     flex: 8;
     padding: 0 20px;
-  }
-
-  /* Project Intro Section, */
-.project-intro {
-    padding: 180px 0 80px;
-    position: relative;
   }
   
   .project-intro .container {
