@@ -331,7 +331,7 @@ nav {
 /* Projekt-Detailseiten */
 .project-intro {
     padding: 180px 0 80px;
-    position: relative;
+    text-align: center;
   }
 
 .project-gallery article:nth-child(2) .project-content {
@@ -365,10 +365,6 @@ nav {
   .project-header-main-column {
     flex: 8;
     padding: 0 20px;
-  }
-  
-  .project-intro .container {
-    text-align: center;
   }
   
   .project-meta {
