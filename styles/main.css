@@ -452,49 +452,6 @@ nav {
     font-size: 0.875rem;
 }
 
-.challenge {
-    background-color: #f7f7f7;   /* Heller Hintergrund, anpassbar */
-    padding: 60px 20px;
-    text-align: center;
-  }
-  
-  /* Container für den Inhalt */
-  .challenge .container {
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  
-  /* Styling für die Überschrift */
-  .challenge-title {
-    font-size: 2.5em;
-    font-weight: bold;
-    margin-bottom: 20px;
-    position: relative;
-    display: inline-block;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-  }
-  
-  
-  /* Styling für den Beschreibungstext */
-  .challenge-description {
-    font-size: 1.2em;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 0 auto;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.8s ease-out 0.2s, transform 0.8s ease-out 0.2s;
-  }
-  
-  /* Sichtbar-Status nach Animation */
-  .challenge-title.loaded,
-  .challenge-description.loaded {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
 /* Kontakt */
 .contact {
     background-color: var(--primary);
