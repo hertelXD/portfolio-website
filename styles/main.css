@@ -278,7 +278,11 @@ nav {
 .project-text h3 {
     font-weight: 400;
     margin-bottom: 0.75rem;
-    color: var(--text);
+}
+
+.project-text p {
+    color: var(--text-light);
+    margin-bottom: 1.5rem;
 }
 
 .project-gallery {
@@ -288,26 +292,21 @@ nav {
     margin-top: 3rem;
 }
 
-.project-gallery article:nth-child(2) .project-content {
-    flex-direction: row-reverse; 
-}
-
-.project-gallery article:nth-child(4) .project-content {
-    flex-direction: row-reverse;
-}
-
-.project-text p {
-    color: var(--text-light);
-    margin-bottom: 1.5rem;
-}
-
 .project-link {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
     font-weight: 500;
     color: var(--primary);
-    transition: color 0.3s ease, transform 0.3s ease;
+    transition: var(--transition);
+}
+
+.project-gallery article:nth-child(2) .project-content {
+    flex-direction: row-reverse; 
+}
+
+.project-gallery article:nth-child(4) .project-content {
+    flex-direction: row-reverse;
 }
 
 .project-link svg {
