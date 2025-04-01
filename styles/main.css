@@ -381,18 +381,6 @@ nav {
     position: relative;
 }
 
-.project-meta:after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50px;
-    height: 2px;
-    background: var(--primary);
-    transition: var(--transition);
-}
-
 .project-meta:hover:after {
     width: 80px;
 }
