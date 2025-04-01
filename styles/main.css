@@ -329,12 +329,6 @@ nav {
 }
 
 /* Projekt-Detailseiten */
-.project-header-section {
-    width: 100%;
-    padding: 40px 0;
-    margin: 0 auto;
-  }
-
 .project-gallery article:nth-child(2) .project-content {
     flex-direction: row-reverse; 
 }
