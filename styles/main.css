@@ -297,7 +297,6 @@ nav {
     align-items: center;
     gap: 0.5rem;
     font-weight: 500;
-    color: var(--primary);
     transition: var(--transition);
 }
 
