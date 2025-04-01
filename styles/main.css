@@ -262,21 +262,6 @@ nav {
     padding: 2rem;
 }
 
-.project-gallery {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    margin-top: 3rem;
-}
-
-.project-gallery article:nth-child(2) .project-content {
-    flex-direction: row-reverse; 
-}
-
-.project-gallery article:nth-child(4) .project-content {
-    flex-direction: row-reverse;
-}
-
 .project-category {
     display: inline-block;
     font-size: 0.75rem;
@@ -294,6 +279,21 @@ nav {
     font-weight: 400;
     margin-bottom: 0.75rem;
     color: var(--text);
+}
+
+.project-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.project-gallery article:nth-child(2) .project-content {
+    flex-direction: row-reverse; 
+}
+
+.project-gallery article:nth-child(4) .project-content {
+    flex-direction: row-reverse;
 }
 
 .project-text p {
