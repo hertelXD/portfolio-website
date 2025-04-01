@@ -175,19 +175,23 @@ nav {
 }
 
 /* Buttons */
-.cta-button {
+.btn {
     display: inline-block;
-    background-color: var(--white);
-    color: var(--primary);
     padding: 0.75rem 2rem;
     border-radius: 50px;
     font-weight: 500;
     transition: var(--transition);
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: var(--white);
+    color: var(--primary);
     border: 2px solid transparent;
     box-shadow: var(--shadow-sm);
 }
 
-.cta-button:hover {
+.btn-primary:hover {
     background-color: transparent;
     color: var(--white);
     border-color: var(--white);
@@ -195,7 +199,7 @@ nav {
     box-shadow: var(--shadow-md);
 }
 
-/* ===== HERO ===== */
+/* Hero Section */
 .hero {
     position: relative;
     height: 80vh;
@@ -239,9 +243,18 @@ nav {
     color: var(--white);
 }
 
-/* ===== PROJEKTE ===== */
+/* Projekte */
 .projects {
     padding: 5rem 0;
+}
+
+.project-card {
+    overflow: hidden;
+}
+
+.project-content {
+    display: flex;
+    align-items: center;
 }
 
 .project-gallery {
@@ -257,16 +270,6 @@ nav {
 
 .project-gallery article:nth-child(4) .project-content {
     flex-direction: row-reverse;
-}
-
-.project-card {
-    overflow: hidden;
-}
-
-.project-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .project-text {
