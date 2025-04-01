@@ -128,6 +128,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+    max-width: min(1200px, 90%);
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 .logo img {
@@ -212,11 +215,8 @@ nav {
     min-height: 500px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: var(--white);
     background: url('../assets/ah-sakurashero.png') center/cover no-repeat;
-}
+  }
 
 .hero::before {
     content: "";
@@ -229,11 +229,13 @@ nav {
 }
 
 .hero-content {
-    position: relative;
-    z-index: 1;
     max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
     padding: 2rem;
-}
+    position: relative;
+    z-index: 2;
+  }
 
 .hero h1 {
     color: var(--white);
@@ -250,6 +252,17 @@ nav {
 }
 
 /* Projekte */
+.projects {
+    padding: 5rem 0;
+  }
+  
+.project-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
 .project-card {
     overflow: hidden;
     margin-bottom: 3rem;
