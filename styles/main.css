@@ -476,15 +476,6 @@ nav {
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   }
   
-
-  .challenge-title::after {
-    content: "";
-    width: 50px;
-    height: 4px;
-    background-color: #ff4500; 
-    display: block;
-    margin: 10px auto 0;
-  }
   
   /* Styling für den Beschreibungstext */
   .challenge-description {
