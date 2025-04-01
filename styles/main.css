@@ -1,6 +1,5 @@
 /* ===== VARIABLEN ===== */
 :root {
-    /* Farben */
     --primary: #d991b3;
     --primary-hover: #b57392;
     --primary-light: rgba(217, 145, 179, 0.1);
@@ -10,19 +9,15 @@
     --white: #ffffff;
     --bg: #fdf6f8;
     --footer-bg: #713f54;
-
-    /* Effekte */
     --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
     --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
     --transition: all 0.3s ease;
-
-     /* Layout */
     --border-radius: 8px;
     --max-width: 1200px;
 }
 
-/* ===== BASIS-STYLES ===== */
+/* ===== BASIS ===== */
 *,
 *::before,
 *::after {
@@ -89,14 +84,14 @@ img {
     border-width: 0;
 }
 
-.container {
+/* ===== LAYOUT ===== */
+.section-container {
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 0 1.5rem;
 }
 
-/* ===== KOMPONENTEN ===== */
-/* Navigation */
+/* ===== NAVIGATION ===== */
 .main-header {
     position: fixed;
     top: 0;
@@ -174,8 +169,6 @@ nav {
     transition: var(--transition);
 }
 
-
-
 /* ===== HERO ===== */
 .hero {
     position: relative;
@@ -218,6 +211,27 @@ nav {
     max-width: 600px;
     margin: 0 auto 2rem;
     color: var(--white);
+}
+
+/* ===== BUTTONS ===== */
+.cta-button {
+    display: inline-block;
+    background-color: var(--white);
+    color: var(--primary);
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: var(--transition);
+    border: 2px solid transparent;
+    box-shadow: var(--shadow-sm);
+}
+
+.cta-button:hover {
+    background-color: transparent;
+    color: var(--white);
+    border-color: var(--white);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
 }
 
 /* ===== PROJEKTE ===== */
@@ -351,13 +365,16 @@ nav {
     padding: 0 20px;
   }
 
-  /* Project Intro Section, */
+  /* Project Intro Section */
 .project-intro {
     padding: 180px 0 80px;
     position: relative;
   }
   
   .project-intro .container {
+    max-width: 1200px;
+    padding: 0 25px;
+    margin: 0 auto;
     text-align: center;
   }
   
