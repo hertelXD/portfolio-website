@@ -332,7 +332,25 @@ nav {
 .project-intro {
     padding: 180px 0 80px;
     text-align: center;
-  }
+}
+
+.project-meta {
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.project-meta:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 2px;
+    background: var(--primary);
+    transition: var(--transition);
+}
 
 .project-gallery article:nth-child(2) .project-content {
     flex-direction: row-reverse; 
@@ -365,24 +383,6 @@ nav {
   .project-header-main-column {
     flex: 8;
     padding: 0 20px;
-  }
-  
-  .project-meta {
-    font-size: 14px;
-    margin-bottom: 25px;
-    position: relative;
-  }
-  
-  .project-meta:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50px;
-    height: 2px;
-    background: var(--clr-accent);
-    transition: width 0.3s ease;
   }
   
   .project-meta:hover:after {
