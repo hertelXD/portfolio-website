@@ -408,7 +408,7 @@ nav {
     justify-content: space-between;
     margin: 2rem 0;
     padding: 1.5rem;
-    background-color: #f5f5f7;
+    background-color: var(--primary-light);
     border-radius: var(--border-radius);
     flex-wrap: wrap;
     gap: 1.5rem;
