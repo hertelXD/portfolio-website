@@ -418,7 +418,7 @@ ul.custom-bullets {
     content: "•";
     position: absolute;
     left: 0;
-    color: var(--primary);
+    color: var(--primary-hover);
   }
 
 .project-details {
