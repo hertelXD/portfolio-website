@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Case Study: DEINHANDY Navigation</title>
+    <title>Case Study:  DEINHANDY Fotoaward</title>
 
     <!-- Preload wichtige Ressourcen -->
     <link rel="preload" href="../styles/main.css" as="style">
@@ -46,7 +46,7 @@
         <section class="project-intro">
             <div class="container">
                 <span class="project-category project-meta">UI/UX Redesign</span>
-                <h1 class="project-heading">Optimierung der Navigation von DEINHANDY</h1>
+                <h1 class="project-heading">Eine Community-Plattform für Fotografie-Enthusiasten</h1>
                 <img src="dein-bild.jpg" alt="Beschreibung des Bildes" class="projekt-bild">
             </div>
         </section>
@@ -57,7 +57,7 @@
                 <div class="overview-container">
                     <h2 class="overview-title">Über das Projekt</h2>
                     <div class="overview-content">
-                        <p>Verbesserung der Benutzerführung und Usability der Hauptnavigation zur Steigerung der Conversion-Rate und Reduktion der Absprungrate.</p>
+                        <p>Entwicklung einer kompletten Wettbewerbsplattform für den DEINHANDY Fotoaward – von der Nutzerregistrierung bis zur Jury-Bewertung. Die mobile-first Web-App ermöglichte es Teilnehmern, Fotos hochzuladen, zu liken und zu kommentieren, während ein custom Admin-Dashboard die Organisation von Wettbewerbsphasen automatisierte.</p>
                     </div>
                 </div>
                 <div class="project-details">
@@ -88,11 +88,13 @@
                 <div class="overview-container">
                     <h2 class="overview-title">Die Herausforderung</h2>
                     <div class="overview-content">
-                        <p>Die ursprüngliche Navigation von DEINHANDY war unübersichtlich und bot den Nutzern keine intuitive Möglichkeit, schnell das passende Produkt oder Angebot zu finden. Die Hauptprobleme waren:</p>
+                        <h3>Vom Konzept zur skalierbaren Lösung</h3>
+                        <p>Der Wettbewerb benötigte eine Plattform, die:</p>
                         <ul class="custom-bullets">
-                            <li><strong>Komplexe Menüstruktur:</strong> Zu viele Kategorien und Untermenüs führten zu Verwirrung.</li>
-                            <li><strong>Fehlende visuelle Hierarchie:</strong> Nutzer hatten Schwierigkeiten, relevante Inhalte auf einen Blick zu erfassen.</li>
-                            <li><strong>Mangelnde mobile Optimierung:</strong> Die Navigation war nicht ausreichend an mobile Nutzung angepasst.</li>
+                            <li><strong>Technisch robust</strong> ist (1000+ gleichzeitige Uploads während der Einreichungsphase)</li>
+                            <li><strong>Fairness garantierte</strong> (anonymisierte Bewertung durch die Jury)</li>
+                            <li><strong>Community-Dynamik</strong> förderte (ohne Moderation-Risiko)</li>
+                            <li><strong>Mobile-first</strong> funktionierte (80% der Nutzer:innen teilten via Smartphone)</li>
                         </ul>
                     </div>
                 </div>
@@ -105,11 +107,49 @@
                 <div class="overview-container">
                     <h2>Recherche & Analyse</h2>
                     <div class="overview-content">
-                        <p>Um die Schwachstellen der bestehenden Navigation zu verstehen, führte ich eine umfassende Analyse durch:</p>
+                        <h3>1. Wettbewerbsanalyse</h3>
                         <ul class="custom-bullets">
-                            <li>Heatmap-Analysen: Zeigten, welche Bereiche der Navigation am häufigsten geklickt wurden und wo Nutzer absprangen.</li>
-                            <li>User Interviews & Feedback: Nutzertests und Kundenfeedback halfen, zentrale Pain Points zu identifizieren.</li>
-                            <li>Best Practices & Wettbewerbsanalyse: Vergleich mit anderen erfolgreichen E-Commerce-Plattformen zur Inspiration.</li>
+                            <li>Benchmarking von 5 Fotowettbewerbs-Plattformen</li>
+                        </ul>
+                        <p>Key Insights:</p>
+                        <ul class="custom-bullets">
+                            <li>73% nutzen keine Mobile-Optimierung (hohe Abbruchraten)</li>
+                            <li>Top-3 Nutzerfrustpunkte: Komplizierte Uploads, Intransparente Jury, Fehlendes Feedback</li>
+                        </ul>
+                        <h3>2. Nutzerbefragung</h3>
+                        <p>Zielgruppen:</p>
+                        <ul class="custom-bullets">
+                            <li>Hobby-Fotografen (n=25)</li>
+                            <li>Profi-Juroren (n=8)</li>
+                            <li>Marketing-Team DEINHANDY</li>
+                        </ul>
+                        <p>Methoden:</p>
+                        <ul class="custom-bullets">
+                            <li>Online-Umfrage mit Typeform</li>
+                            <li>Tiefeninterviews mit Power-Usern</li>
+                        </ul>
+                        <h3>3. Technische Anforderungen</h3>
+                        <p>Load-Testing:</p>
+                        <ul class="custom-bullets">
+                            <li>1.000+ gleichzeitige Uploads simulieren</li>
+                            <li>Bildgrößen optimieren (max. 5MB bei 3000px langkante)</li>
+                        </ul>
+                        <p>Rechtliche Prüfung:</p>
+                        <ul class="custom-bullets">
+                            <li>DSGVO-konformer Umgang mit Bildrechten</li>
+                            <li>Altersverifikation für Teilnehmer</li>
+                        </ul>
+                        <h3>4. Stakeholder-Workshops</h3>
+                        <p>Design Thinking Session mit:</p>
+                        <ul class="custom-bullets">
+                            <li>DEINHANDY Marketing</li>
+                            <li>Fotografie-Experten</li>
+                            <li>Ex-Juroren früherer Wettbewerbe</li>
+                        </ul>
+                        <p>Ergebnis: User Journey Maps für:</p>
+                        <ul class="custom-bullets">
+                            <li>Teilnehmerflow (Upload → Feedback)</li>
+                            <li>Juryflow (Bewertung → Entscheidung)</li>
                         </ul>
                     </div>
                 </div>
@@ -122,22 +162,24 @@
                 <div class="overview-container">
                     <h2>Designprozess & Lösungen</h2>
                     <div class="overview-content">
-                        <p>Basierend auf den Erkenntnissen entwickelte ich eine neue Navigationsstruktur mit folgenden Verbesserungen:</p>
                         <img src="../images/dh-navigation-loesung.jpg" alt="Neue Navigation" class="case-image">
-                        <h3>1. Vereinfachung der Menüstruktur</h3>
+                        <h3>1. Nutzerzentrierte Architektur</h3>
                         <ul class="custom-bullets">
-                            <li>Reduktion der Hauptkategorien von [Anzahl vorher] auf [Anzahl nachher].</li>
-                            <li>Gruppierung ähnlicher Produkte unter verständlichen Kategorien.</li>
+                            <li>Drei Zielgruppen: Teilnehmer:innen, Jury, Admin-Team</li>
+                            <li>Getrennte Workflows mit rollenbasiertem Zugang (z. B. Jury sah keine Nutzernamen)</li>
+                            <li>Micro-Interaktionen für Engagement (z. B. „Danke“-Popup nach Upload)</li>
                         </ul>
-                        <h3>2. Verbesserte visuelle Hierarchie</h3>
+                        <h3>2. Technische Highlights</h3>
                         <ul class="custom-bullets">
-                            <li>Einführung einer klaren Differenzierung zwischen Haupt- und Unterkategorien.</li>
-                            <li>Nutzung von Icons und Farbakzenten zur besseren Orientierung.</li>
+                            <li>Bildverarbeitung: Automatische Komprimierung & Thumbnail-Generierung</li>
+                            <li>Live-Updates: Socket.io für Echtzeit-Rankings während der Voting-Phase</li>
+                            <li>Sicherheit: Captcha gegen Spam, manuelle Freigabe für öffentliche Kommentare</li>
                         </ul>
-                        <h3>3. Mobile First-Ansatz</h3>
+                        <h3>3. Jury-Tool</h3>
                         <ul class="custom-bullets">
-                            <li>Einführung einer Sticky-Navigation für besseren Zugriff auf wichtige Seiten.</li>
-                            <li>Optimierte Touch-Bedienung und größere Click Targets für eine verbesserte mobile Usability.</li>
+                            <li>Blind Review: Fotos ohne Metadaten</li>
+                            <li>Multi-Score-System: Kriterien wie „Originalität“, „Technik“, „Story“</li>
+                            <li>Export-Funktion: CSV-Download für die Preisverleihung</li>
                         </ul>
                     </div>
                 </div>
@@ -164,19 +206,13 @@
         <section class="project-overview">
             <div class="content-wrapper">
                 <div class="overview-container">
-                    <h2>Ergebnisse & Learnings</h2>
+                    <h2>Ergebnis</h2>
                     <div class="overview-content">
-                        <p>Nach der Implementierung des neuen Designs wurden folgende Verbesserungen festgestellt:</p>
+                        <p>Mehr als nur ein Wettbewerb – eine Community</p>
                         <ul class="custom-bullets">
-                            <li>20% weniger Absprünge.</li>
-                            <li>15% höhere Conversion-Rate.</li>
-                            <li>Optimierte mobile Nutzungserfahrung.</li>
-                        </ul>
-                        <h3>Learnings:</h3>
-                        <ul class="custom-bullets">
-                            <li>Eine klare und intuitive Navigation reduziert kognitive Belastung und verbessert die Nutzerführung erheblich.</li>
-                            <li>Nutzer bevorzugen eine schrittweise Hierarchie anstelle von zu vielen direkten Auswahlmöglichkeiten.</li>
-                            <li>Mobile Nutzer profitieren stark von Sticky-Nav-Elementen und vereinfachten Menüs.</li>
+                            <li>2.300+ Einreichungen in der ersten Saison</li>
+                            <li>Admin-Zeitaufwand reduziert durch Automatisierung (z. B. automatische Erinnerungsmails)</li>
+                            <li>92% Mobile-Nutzung bestätigte die Priorisierung</li>
                         </ul>
                     </div>
                 </div>
@@ -189,7 +225,7 @@
                 <div class="overview-container">
                     <h2>Fazit</h2>
                     <div class="overview-content">
-                        <p>Das Redesign der DEINHANDY-Navigation führte zu einer signifikanten Verbesserung der Nutzererfahrung und half, Geschäftsziele zu unterstützen. Durch eine nutzerzentrierte Herangehensweise konnten wir eine intuitive Navigation schaffen, die sowohl auf Desktop als auch mobil überzeugt.</p>
+                        <p>Die DEINHANDY Fotoaward-Plattform zeigt, wie technische Präzision und Community-Design zusammenspielen müssen: Durch klare Rollentrennung, performante Bildverarbeitung und gamifizierte Elemente entstand mehr als eine Website – ein lebendiges Ökosystem für Kreative.</p>
                     </div>
                 </div>
             </div>
