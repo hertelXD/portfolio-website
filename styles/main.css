@@ -446,7 +446,7 @@ nav {
 }
 
 .tools-used li {
-    background: #e9e9ef;
+    background: var(--primary);
     padding: 0.3rem 0.8rem;
     border-radius: 4px;
     font-size: 0.875rem;
