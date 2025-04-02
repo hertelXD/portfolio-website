@@ -403,6 +403,25 @@ nav {
     gap: 2rem;
 }
 
+ul.custom-bullets {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul.custom-bullets li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+  }
+  
+  ul.custom-bullets li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #3a7bd5; /* Farbe anpassen */
+    font-size: 1.2em;
+  }
+
 .project-details {
     display: flex;
     justify-content: space-between;
