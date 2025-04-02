@@ -505,6 +505,57 @@ ul.custom-bullets li:before {
     margin-top: 2rem;
 }
 
+.ab-test-results {
+    font-family: 'Inter', sans-serif;
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #f9fafc;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  .ab-test-results h3 {
+    color: #2d3748;
+    margin-top: 0;
+    font-size: 1.25rem;
+  }
+  
+  .ab-test-results table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+  }
+  
+  .ab-test-results th {
+    background: #3a7bd5;
+    color: white;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .ab-test-results td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .ab-test-results .winner {
+    font-weight: 600;
+    color: #2b6cb0;
+    background-color: #ebf8ff;
+  }
+  
+  .ab-test-results .footnote {
+    font-size: 0.8rem;
+    color: #718096;
+    text-align: right;
+    margin-top: 0.5rem;
+  }
+
+  .ab-test-results tr:hover {
+    background-color: #f0f5ff;
+  }
+
 /* Footer */
 .main-footer {
     background-color: var(--footer-bg);
@@ -615,6 +666,11 @@ ul.custom-bullets li:before {
         text-align: center;
         align-items: center;
     }
+
+    .ab-test-results table {
+        display: block;
+        overflow-x: auto;
+      }
 }
 
 @media (max-width: 480px) {
