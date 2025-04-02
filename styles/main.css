@@ -413,27 +413,27 @@ nav {
     margin-bottom: 25px;
   }
   
-  .overview-container img {
+.overview-container img {
     margin: 20px 0;
-  }
+}
 
 ul.custom-bullets {
     list-style-type: none;
     padding-left: 0;
-  }
+}
   
-  ul.custom-bullets li {
+ul.custom-bullets li {
     position: relative;
     padding-left: 25px;
     margin-bottom: 10px;
-  }
+}
   
-  ul.custom-bullets li:before {
+ul.custom-bullets li:before {
     content: "•";
     position: absolute;
     left: 0;
     color: var(--primary-hover);
-  }
+}
 
 .project-details {
     display: flex;
@@ -453,7 +453,7 @@ ul.custom-bullets {
     margin: 1.5rem 0;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-md);
-  }
+}
 
 .detail-item {
     flex: 1;
