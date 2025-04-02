@@ -419,7 +419,6 @@ ul.custom-bullets {
     position: absolute;
     left: 0;
     color: var(--primary)
-    font-size: 1.2em;
   }
 
 .project-details {
