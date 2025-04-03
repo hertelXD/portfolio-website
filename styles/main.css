@@ -607,6 +607,37 @@ ul.custom-bullets li:before {
     transform: translateY(-2px);
 }
 
+.resume-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+  }
+
+  .left-column {
+    border-right: 1px solid #eee;
+    padding-right: 20px;
+  }
+
+  section {
+    margin-bottom: 40px;
+  }
+
+  article {
+    margin-bottom: 25px;
+  }
+
+  .skill-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .skill-list li {
+    background: #f0f0ff;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+  }
+
 /* ===== MEDIA QUERIES ===== */
 @media (max-width: 768px) {
     body {
