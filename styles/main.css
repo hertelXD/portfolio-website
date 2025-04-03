@@ -638,6 +638,24 @@ ul.custom-bullets li:before {
     border-radius: 4px;
   }
 
+  .inline-list {
+    list-style: none;          /* Entfernt Aufzählungspunkte */
+    padding: 0;                /* Entfernt Standard-Padding */
+    display: flex;             /* Flexbox für nebeneinander */
+    gap: 20px;                 /* Abstand zwischen den Items */
+    align-items: baseline;     /* Gleiche Grundlinie für Text */
+    margin: 8px 0;             /* Abstand nach oben/unten */
+  }
+  
+  .item-title {
+    font-weight: bold;         
+  }
+  
+  .item-date {
+    color: #666;               
+    font-style: italic;
+  }
+
 /* ===== MEDIA QUERIES ===== */
 @media (max-width: 768px) {
     body {
