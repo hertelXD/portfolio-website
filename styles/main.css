@@ -618,8 +618,12 @@ ul.custom-bullets li:before {
     padding-right: 20px;
   }
 
-  section {
+.resume-grid  section {
     margin-bottom: 40px;
+  }
+
+.resume-grid  article {
+    margin-bottom: 25px;
   }
 
   .skill-list {
