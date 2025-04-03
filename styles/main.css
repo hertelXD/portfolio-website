@@ -642,7 +642,7 @@ ul.custom-bullets li:before {
     list-style: none;          /* Entfernt Aufzählungspunkte */
     padding: 0;                /* Entfernt Standard-Padding */
     display: flex;             /* Flexbox für nebeneinander */
-    gap: 20px;                 /* Abstand zwischen den Items */
+    gap: 50px;                 /* Abstand zwischen den Items */
     align-items: baseline;     /* Gleiche Grundlinie für Text */
     margin: 8px 0;             /* Abstand nach oben/unten */
   }
