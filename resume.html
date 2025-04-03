@@ -23,14 +23,23 @@
         <link rel="icon" href="assets/fav-ah-logo.png" type="image/png">
     </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projekte</a></li>
-                <li><a href="resume.html" class="active">Über mich</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-            </ul>
+    <header class="main-header">
+        <nav aria-label="Hauptnavigation">
+            <div class="nav-container">
+                <a href="/" class="logo">
+                    <img src="assets/ah-logo.png" alt="Aileen Hertel Logo - Zur Startseite" width="100" height="40">
+                </a>
+                <button class="mobile-menu-toggle" aria-expanded="false" aria-label="Menü öffnen/schließen">
+                    <span class="toggle-line"></span>
+                    <span class="toggle-line"></span>
+                    <span class="toggle-line"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html#projects" class="nav-link">Projekte</a></li>
+                    <li><a href="resume.html" class="nav-link">Über mich</a></li>
+                    <li><a href="index.html#contact" class="nav-link">Portfolio (PDF)</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     
