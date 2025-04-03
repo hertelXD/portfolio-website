@@ -393,7 +393,7 @@ nav {
     width: 80px;
 }
 
-.project-overview {
+.project-overview, .resume-content {
     padding: 4rem 0;
 }
 
