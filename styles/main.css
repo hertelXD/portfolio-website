@@ -622,10 +622,6 @@ ul.custom-bullets li:before {
     margin-bottom: 40px;
   }
 
-  article {
-    margin-bottom: 25px;
-  }
-
   .skill-list {
     list-style-type: none;
     padding-left: 0;
