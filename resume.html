@@ -43,54 +43,58 @@
         </nav>
     </header>
     
-    <main class="resume-container">
-        <aside class="sidebar">
-            <section class="profile">
-                <img src="profile.jpg" alt="Aileen Hertel">
-                <h1>Aileen Hertel</h1>
-                <p>Senior UX/UI Designerin mit Fokus auf E-Commerce</p>
-            </section>
-            <section class="contact">
-                <h2>Kontakt</h2>
-                <p>Email: aileen@example.com</p>
-                <p>Telefon: +49 123 456 7890</p>
-                <p>Berlin, Deutschland</p>
-            </section>
-            <section class="skills">
-                <h2>Fähigkeiten</h2>
-                <ul>
-                    <li>UI/UX Design</li>
-                    <li>Prototyping & Wireframing</li>
-                    <li>Figma, Adobe XD, Photoshop</li>
-                    <li>HTML, CSS, JavaScript</li>
-                </ul>
-            </section>
-        </aside>
-        
-        <section class="resume-content">
-            <section class="experience">
-                <h2>Berufserfahrung</h2>
-                <div class="job">
-                    <h3>ready2order</h3>
-                    <p><strong>2021 - 2023 | UI/UX Designerin</strong></p>
-                    <p>Entwicklung des Corporate Designs und Neugestaltung des Unternehmensauftritts.</p>
-                </div>
-                <div class="job">
-                    <h3>DEINHANDY</h3>
-                    <p><strong>2016 - 2021 | UI/UX Designerin</strong></p>
-                    <p>A/B-Tests, Marketing- und Produktdesign, Entwicklung einer Award-Webseite.</p>
-                </div>
-            </section>
-            
-            <section class="education">
-                <h2>Bildung</h2>
-                <div class="edu">
-                    <h3>CimData Medienakademie</h3>
-                    <p><strong>2006 - 2009 | Ausbildung zur Mediengestalterin</strong></p>
-                </div>
-            </section>
+    <main>
+        <!-- Kopfbereich -->
+        <section class="resume-header">
+          <h1>Aileen Hertel</h1>
+          <p class="subtitle">Game Designer & Developer</p>
         </section>
-    </main>
+    
+        <!-- Hauptinhalt (2-spaltig) -->
+        <div class="resume-grid">
+          <!-- Linke Spalte: Erfahrung & Ausbildung -->
+          <section class="left-column">
+            <section id="experience">
+              <h2>Experience</h2>
+              <article>
+                <h3>Game Designer bei XYZ Studios</h3>
+                <p><em>2020 – Present</em></p>
+                <ul>
+                  <li>Entwicklung von 3D-Spielmechaniken</li>
+                  <li>Level-Design mit Unity</li>
+                </ul>
+              </article>
+            </section>
+    
+            <section id="education">
+              <h2>Education</h2>
+              <article>
+                <h3>HTW Berlin</h3>
+                <p><em>B.Sc. Game Design | 2017–2020</em></p>
+              </article>
+            </section>
+          </section>
+    
+          <!-- Rechte Spalte: Skills & Kontakt -->
+          <section class="right-column">
+            <section id="skills">
+              <h2>Skills</h2>
+              <ul class="skill-list">
+                <li>Unity 3D</li>
+                <li>C# Programming</li>
+                <li>Blender</li>
+              </ul>
+            </section>
+    
+            <section id="contact">
+              <h2>Get In Touch</h2>
+              <p>
+                <a href="mailto:aileenhertel@gmail.com">aileenhertel@gmail.com</a>
+              </p>
+            </section>
+          </section>
+        </div>
+      </main>
     
     <footer class="main-footer">
         <div class="footer-content">
