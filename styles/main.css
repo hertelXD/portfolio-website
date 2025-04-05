@@ -436,6 +436,10 @@ ul.custom-bullets li:before {
     color: var(--primary-hover);
 }
 
+#skills ul.custom-bullets {
+    margin: 10 0 10 0;
+}
+
 .project-details {
     display: flex;
     justify-content: space-between;
