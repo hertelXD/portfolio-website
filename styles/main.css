@@ -643,12 +643,12 @@ ul.custom-bullets li:before {
   }
 
   .inline-list {
-    list-style: none;          /* Entfernt Aufzählungspunkte */
-    padding: 0;                /* Entfernt Standard-Padding */
-    display: flex;             /* Flexbox für nebeneinander */
-    gap: 50px;                 /* Abstand zwischen den Items */
-    align-items: baseline;     /* Gleiche Grundlinie für Text */
-    margin: 8px 0;             /* Abstand nach oben/unten */
+    list-style: none;         
+    padding: 0;              
+    display: flex;      
+    justify-content: space-between;               
+    align-items: baseline;     
+    margin: 8px 0;            
   }
   
   .item-title {
