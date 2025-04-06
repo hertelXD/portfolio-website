@@ -490,6 +490,11 @@ ul.custom-bullets li:before {
     color: var(--white);
 }
 
+.employment-titel {
+    font-size: 20px;
+    font-weight: 800;
+}
+
 /* Kontakt */
 .contact {
     background-color: var(--primary);
