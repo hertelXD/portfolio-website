@@ -496,7 +496,7 @@ ul.custom-bullets li:before {
 }
 
 /* Kontakt */
-.contact {
+.pink-bg {
     background-color: var(--primary);
     color: var(--white);
     text-align: center;
