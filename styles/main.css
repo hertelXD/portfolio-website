@@ -673,6 +673,35 @@ ul.custom-bullets li:before {
     font-style: italic;
   }
 
+  .resume-download {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .resume-download h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .resume-download p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .resume-download .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .resume-download .btn:hover {
+    background-color: #0056b3;
+  }
+
 /* ===== MEDIA QUERIES ===== */
 @media (max-width: 768px) {
     body {
