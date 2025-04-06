@@ -659,6 +659,10 @@ ul.custom-bullets li:before {
     align-items: baseline;     
     margin: 0 0 5px 0;            
 }
+
+.employment-titel .inline-list {
+    margin-bottom: 15px;
+}
   
   .item-title {
     font-weight: bold;         
