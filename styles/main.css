@@ -503,6 +503,10 @@ ul.custom-bullets li:before {
     padding: 5rem 0;
 }
 
+.pink-resume {
+    padding: 4rem 0 1rem 0;
+}
+
 .contact h2 {
     color: var(--white);
 }
