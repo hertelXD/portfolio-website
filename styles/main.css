@@ -542,7 +542,7 @@ ul.custom-bullets li:before {
   }
   
   .ab-test-results th {
-    background: #3a7bd5;
+    background: var(--primary);
     color: white;
     padding: 12px;
     text-align: left;
