@@ -566,7 +566,7 @@ ul.custom-bullets li:before {
   }
 
   .ab-test-results tr:hover {
-    background-color: #f0f5ff;
+    background-color: var(--primary-light);
   }
 
   .resume-container {
