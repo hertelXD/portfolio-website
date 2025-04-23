@@ -3,13 +3,13 @@
     /* Farben */
     --primary: #b76d84;
     --primary-hover: #a2576e;
-    --primary-light: rgba(217, 145, 179, 0.1);
+    --primary-light: rgba(183, 109, 132, 0.08);
     --secondary: #f8e1e7;
     --text: #2d3748;
     --text-light: #718096;
     --white: #ffffff;
-    --bg: #fdf6f8;
-    --footer-bg: #713f54;
+    --bg: #f9f5f6;
+    --footer-bg: #5e3a4e;
     
     /* Effekte */
     --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
