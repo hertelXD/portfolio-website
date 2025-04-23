@@ -555,7 +555,6 @@ ul.custom-bullets li:before {
   
   .ab-test-results .winner {
     font-weight: 600;
-    color: var(--primary-light);
     background-color: var(--secondary);
   }
   
