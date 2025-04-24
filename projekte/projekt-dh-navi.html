@@ -121,7 +121,11 @@
                                     <li>Einführung einer Sticky-Navigation für besseren Zugriff auf wichtige Seiten.</li>
                                     <li>Optimierte Touch-Bedienung und größere Click Targets für eine verbesserte mobile Usability.</li>
                                 </ul>
-                                <img src="../assets/dh-nav-screens.png" alt="Beschreibung des Bildes" class="projekt-bild">
+                                <img src="../assets/dh-nav-screens.png" alt="Beschreibung des Bildes" class="projekt-bild lightbox-trigger">
+                                <div id="lightbox" class="lightbox">
+                                    <span class="close">&times;</span>
+                                    <img class="lightbox-content" id="lightbox-img" />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -217,6 +221,19 @@
         document.addEventListener("DOMContentLoaded", function() {
             document.querySelector(".project-category").classList.add("loaded");
         });
+        document.querySelectorAll('.lightbox-trigger').forEach(img => {
+  img.addEventListener('click', () => {
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+    lightboxImg.src = img.src;
+    lightbox.style.display = "block";
+  });
+});
+
+// Schließt die Lightbox
+document.querySelector(".close").addEventListener('click', () => {
+  document.getElementById("lightbox").style.display = "none";
+});
     </script>
 </body>
 </html>
