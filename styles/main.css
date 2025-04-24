@@ -460,6 +460,40 @@ ul.custom-bullets li:before {
     box-shadow: var(--shadow-md);
 }
 
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.85);
+  }
+  .lightbox-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 80vh;
+    box-shadow: 0 0 40px rgba(0,0,0,0.8);
+    border-radius: 8px;
+  }
+  .close {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .close:hover {
+    color: #ccc;
+  }
+
 .detail-item {
     flex: 1;
     min-width: 200px;
