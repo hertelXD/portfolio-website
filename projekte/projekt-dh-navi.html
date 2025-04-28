@@ -230,18 +230,18 @@
             document.querySelector(".project-category").classList.add("loaded");
         });
         document.querySelectorAll('.lightbox-trigger').forEach(img => {
-  img.addEventListener('click', () => {
-    const lightbox = document.getElementById("lightbox");
-    const lightboxImg = document.getElementById("lightbox-img");
-    lightboxImg.src = img.src;
-    lightbox.style.display = "block";
-  });
-});
+            img.addEventListener('click', () => {
+                const lightbox = document.getElementById("lightbox");
+                const lightboxImg = document.getElementById("lightbox-img");
+                lightboxImg.src = img.src;
+                lightbox.style.display = "block";
+            });
+        });
 
-// Schließt die Lightbox
-document.querySelector(".close").addEventListener('click', () => {
-  document.getElementById("lightbox").style.display = "none";
-});
+        // Schließt die Lightbox
+        document.querySelector(".close").addEventListener('click', () => {
+            document.getElementById("lightbox").style.display = "none";
+        });
     </script>
 </body>
 </html>
