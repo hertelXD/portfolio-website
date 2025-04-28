@@ -117,7 +117,11 @@
                             <li>Design einer dunklen UI mit leuchtenden Akzenten, inspiriert von Lichtstimmungen im Club</li>
                             <li>Typografie-Mix: Technoid & gut lesbar</li>
                         </ul>
-                        <img src="../assets/djdeck-uielements.png" alt="Beschreibung des Bildes" class="projekt-bild">
+                        <img src="../assets/djdeck-uielements.png" alt="Beschreibung des Bildes" class="projekt-bild lightbox-trigger">
+                        <div id="lightbox" class="lightbox">
+                            <span class="close">&times;</span>
+                            <img class="lightbox-content" id="lightbox-img" />
+                        </div>
                         <h3>3. Umsetzung</h3>
                         <ul class="custom-bullets">
                             <li>One-Page-Webdesign mit Fokus auf schnelle Informationsvermittlung</li>
@@ -127,7 +131,11 @@
                             <li>Direktes Booking-Formular</li>
                             <li>Entwicklung & Prototyping in mehreren Phasen mit User-Tests</li>
                         </ul>
-                        <img src="../assets/djdeck-screens.png" alt="Beschreibung des Bildes" class="projekt-bild">
+                        <img src="../assets/djdeck-screens.png" alt="Beschreibung des Bildes" class="projekt-bild lightbox-trigger">
+                        <div id="lightbox" class="lightbox">
+                            <span class="close">&times;</span>
+                            <img class="lightbox-content" id="lightbox-img" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -182,6 +190,19 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             document.querySelector(".project-category").classList.add("loaded");
+        });
+        document.querySelectorAll('.lightbox-trigger').forEach(img => {
+            img.addEventListener('click', () => {
+                const lightbox = document.getElementById("lightbox");
+                const lightboxImg = document.getElementById("lightbox-img");
+                lightboxImg.src = img.src;
+                lightbox.style.display = "block";
+            });
+        });
+
+        // Schließt die Lightbox
+        document.querySelector(".close").addEventListener('click', () => {
+            document.getElementById("lightbox").style.display = "none";
         });
     </script>
 </body>
