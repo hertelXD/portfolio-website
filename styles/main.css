@@ -255,6 +255,10 @@ nav {
 .projects {
     padding: 5rem 0;
   }
+
+.projects-heading {
+    font-weight: 600;
+}
   
 .project-gallery {
     display: flex;
