@@ -1,4 +1,7 @@
+[build]
+  publish = "."
+
 [[headers]]
   for = "/*"
   [headers.values]
-    Basic-Auth = "recruiter:supersecret"
+    Basic-Auth = "recruiter geheim123"
