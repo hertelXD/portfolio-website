@@ -4,4 +4,4 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Basic-Auth = "recruiter geheim123"
+    Basic-Auth = "recruiter supergeheim123"
